@@ -1,4 +1,4 @@
-ScalaScripts
-============
+##ScalaScripts
 
-Scripts written in Scala for educational purpose
+
+Scripts I wrote while learning Scala. Solely for educational purpose.

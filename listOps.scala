@@ -4,21 +4,21 @@ var c = List("Today","is","a","great","day")
 
 var listJoined = a :: b
 
-println("New list after joining a and b : "    + listJoined)
+println("New list after joining a and b : " + listJoined)
 
-println("Element at index 2 of list a : "      + a(2))
+println("Element at index 2 of list a : " + a(2))
 
 println("LIST C : " + c )
 
-println("No of elems with length > 3 in c : "  + c.count(x => x.length > 3))
+println("No of elems with length > 3 in c : " + c.count(x => x.length > 3))
 
-println("Elems with length > 3 in c : "        + c.filter(x => x.length > 3))
+println("Elems with length > 3 in c : " + c.filter(x => x.length > 3))
 
 println("Is \"great\" is present in list c : " + c.exists(x => x == "great"))
 
-println("Remove last 2 elems in c : "          + c.dropRight(2))
+println("Remove last 2 elems in c : " + c.dropRight(2))
 
-println("Display all elems in c : "            + c.foreach(println))
+println("Display all elems in c : " + c.foreach(println))
 
 println("First elem : " + c.head + " and last elem: " + c.last + " in c")
 
